@@ -35,21 +35,39 @@ window.addEventListener('resize', setVw);
 // slider
 
 const list = document.querySelector('.slider__list');
+const picture = document.querySelector('.slider__item');
 const prevButton = document.querySelector('.prev-button');
 const nextButton = document.querySelector('.next-button');
-let count = 1;
+let currenttrnsform = 0;
 
-function move(isNext) {
-  const moveValue = isNext ? 1 : -1;
+function move() {
+  const width = -(picture.offsetWidth);
 
-  list.style.setProperty('transform', `translateX(${moveValue * 300}px)`);
+  // eslint-disable-next-line max-len
+  list.style.setProperty('transform', `translateX(${width * currenttrnsform}px)`);
 }
 
 prevButton.addEventListener('click', function() {
-  count++;
-  move(false);
+  currenttrnsform--;
+
+  if (currenttrnsform < 0) {
+    currenttrnsform = 2;
+  }
+
+  move();
 });
 
+const moveForvard = () => {
+  currenttrnsform++;
+
+  if (currenttrnsform > 2) {
+    currenttrnsform = 0;
+  }
+  move();
+};
+
 nextButton.addEventListener('click', function() {
-  move(true);
+  moveForvard();
 });
+
+setInterval(moveForvard, 8000);
