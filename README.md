@@ -1,6 +1,6 @@
-[Design] https://www.figma.com/file/7qwsWggv9BAxMi2VPhBuPr/Air-(formerly-Dia))?node-id=0%3A1
+[Design] (https://www.figma.com/file/7qwsWggv9BAxMi2VPhBuPr/Air-(formerly-Dia))?node-id=0%3A1)
 
-[DEMO LINK] (https://yurii837.github.io/landing_dia/#)
+[DEMO LINK] (https://Yurii837.github.io/layout_dia/)
 
 Technologies: JavaScript, DOM, HTML5, CSS3, Sass (SCSS), JSON
 
