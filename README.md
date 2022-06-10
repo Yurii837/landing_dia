@@ -1,4 +1,11 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
-    - [DEMO LINK](https://Yurii837.github.io/<repo_name>/)
+[Design] (https://www.figma.com/file/7qwsWggv9BAxMi2VPhBuPr/Air-(formerly-Dia))?node-id=0%3A1)
+
+[DEMO LINK] (https://yurii837.github.io/landing_dia/)
+
+Technologies: JavaScript, DOM, HTML5, CSS3, Sass (SCSS), JSON
+
+IDE: VSCode, Chrome DevTools
+
+Methodologies: BEM
+
+Tools: Git, Photoshop, Figma, NPM
